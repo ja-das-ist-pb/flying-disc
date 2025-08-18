@@ -4,16 +4,65 @@
             body{
                 background-color: #CAD5E2;
             }
+            a{
+                text-decoration: none;
+            }
+            .container{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 500px;
+            }
+            .item{
+                width: 20vw;
+                height: 100%;
+                color: white;
+                display: flex;
+                justify-content: center;
+                border-radius: 40px;
+                font-size: 20px;
+                border: 2px solid #333;
+            }
+            #distance{
+                background-image: url(https://cdn.ultiworld.com/wordpress/wp-content/uploads/2016/08/ProFlightFinale2016_RKW_20160820115056-ZF-8600-60755-1-001-768x512.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #accuracy{
+                background-image: url();
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #self-caught-flight{
+                background-image: url(https://cdn.ultiworld.com/wordpress/wp-content/uploads/2020/05/USAU_NATS_Fri_1018_111906_BC4_1593-ZF-10119-71947-1-001.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            #disc-golf{
+                background-image: url(https://storage.googleapis.com/onmilwaukee-article-images/variants/9c877nein5rahfm6eajuf8md5h0x/44487ed8fba0f2b82d9d5c8e9a98ed4b9d67f7c75e21d8b1a6cda1869e8697fd);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
         </style>
     </head>
     <body>
         <h1>個人賽</h1>
-        <ul>
-            <li><h2><a href="distance.html">擲遠</a></h2></li>
-            <li><h2><a href="accuracy.html">擲準</a></h2></li>
-            <li><h2><a href="self-caught-flight.html">自接</a></h2></li>
-            <li><h2><a href="disc-golf.html">飛盤高爾夫</a></h2></li>
-        </ul>
+        <div class="container">
+            <a href="distance.html">
+                <div class="item" id="distance">擲遠</div>
+            </a>
+            <a href="accuracy.html">
+                <div class="item" id="accuracy">擲準</div>
+            </a>
+            <a href="self-caught-flight.html">
+                <div class="item" id="self-caught-flight">自接</div>
+            </a>
+            <a href="disc-golf.html">
+                <div class="item" id="disc-golf">飛盤高爾夫</div>
+            </a>
+        </div>
+
+            
     </br></br>
     <h3><a href="index.html">回上頁</a></h3>
     </body>

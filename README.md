@@ -1,1 +1,2 @@
-# https://ja-das-ist-pb.github.io/flying-disc/self-directed-learning.html
+沒什麼屌用
+只是拿來練習CSS
